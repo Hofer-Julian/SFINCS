@@ -1,24 +1,25 @@
 # Unique identifier
-id: 0001_usa_jacksonville # add a unique name, please start with a number +1 higher than last committed one. E.g. start with a number, then the country where the model was made for, and then what city/region/state. Example: 0001_usa_jacksonville
+id: 0002_country_region # add a unique name, please start with a number +1 higher than last committed one. E.g. start with a number, then the country where the model was made for, and then what city/region/state. Example: 0001_usa_jacksonville
 
 # Title
-name: "Jacksonville during Hurricane Irma (2017)"
+name: "XXX"
+version: 01 # add a number for what version this is of your model
 
 # Purpose
-description: "Model comparison with Delft3D for Hurricane Irma (2017) as part of the SFINCS introduction paper Leijnse et al. 2021"
+description: "Explain something about the goal of the model, project, etc."
 
 # Contact info - Where to find more info?
-email: "tim.leijnse@deltares.nl" #preferred - add an email adress for the case people want to ask questions about your model or research
+email: "XXX@XXX.com" #preferred - add an email adress for the case people want to ask questions about your model or research
 doi: "https://doi.org/10.1016/j.coastaleng.2020.103796" #optional - add a doi of the publication where you published your results
-linkedin: "https://www.linkedin.com/in/tim-leijnse-018669120/" # optional - add your Linkedin account
-website: "https://sfincs.readthedocs.io/en/latest/" # optional - add a website involved with your research
+linkedin: "https://www.linkedin.com/in/" # optional - add your Linkedin account
+website: "https://" # optional - add a website involved with your research
 
 # Type of model
 type: regular # regular, subgrid, quadtree
 sharing: input # info, outline, input, forcing, output - level of how much info you want to share about your SFINCS model. Either just that it exists for a country, a rough shapefile of the domain outline, sfincs.inp files, all forcing data, model output
 
 # Domain
-dx: 90 #grid resolution in degree/meter
+dx: 100 #grid resolution in degree/meter
 crs_epsg: 32516 # EPSG code, meaning global in degrees (4326?) or projected in UTM zone #...
 crs_name: UTM17N # 
 
